@@ -149,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489879134718</updated>
-      <workItem from="1489879137290" duration="991000" />
+      <workItem from="1489879137290" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="Acrescentar arquivo com o github.">
       <created>1489879226452</created>
@@ -162,10 +162,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="991000" />
+    <option name="totallyTimeSpent" value="1078000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1024" height="728" extended-state="0" />
+    <frame x="0" y="0" width="1024" height="728" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
