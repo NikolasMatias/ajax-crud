@@ -82,7 +82,7 @@ $(document).ready(function(){
             type: type,
             url: my_url,
             data: formData,
-            dataType: 'json',
+            ContentType: 'aplication/json',
             success: function (data) {
                 console.log(data);
 
