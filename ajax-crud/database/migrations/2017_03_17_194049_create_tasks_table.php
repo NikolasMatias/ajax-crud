@@ -19,7 +19,7 @@ class CreateTasksTable extends Migration
             $table->increments('id');
             $table->string('task');
             $table->string('description');
-            $table->boolean('done');
+            $table->boolean('done')->default(false);
             $table->timestamps();
         });
         Task::create([

@@ -30,12 +30,19 @@ $(document).ready(function(){
 
     //delete task and remove it from list
     $('.delete-task').click(function(){
+        var _token = $('#token').val();
+        $.ajaxSetup({
+            headers: {
+                "X-CSRF-TOKEN": $('#token').attr('content')
+            }
+        })
         var task_id = $(this).val();
 
         $.ajax({
 
             type: "DELETE",
             url: url + '/' + task_id,
+            data: {_token : _token},
             success: function (data) {
                 console.log(data);
 
